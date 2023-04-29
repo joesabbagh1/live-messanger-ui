@@ -20,7 +20,6 @@ const Login = () => {
           .max(28, "Password too long!"),
       })}
       onSubmit={(values, actions) => {
-        alert(JSON.stringify(values, null, 2))
         actions.resetForm()
       }}
     >
